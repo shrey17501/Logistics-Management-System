@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+	<config>
+		<add key="http_proxy" value="http://proxy_hostname_or_ip:3128" />
+		<add key="https_proxy" value="http://proxy_hostname_or_ip:3128" />
+	</config>
+
+	<packageSources>
+		<add key="nuget.org" vslue="https://api.nuget.org/v3/index.json" protocolVersion="3" />
+	</packageSources>
+</configuration>

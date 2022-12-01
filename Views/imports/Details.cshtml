@@ -1,0 +1,42 @@
+﻿@model logistics.Models.import
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>import</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.county)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.county)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.shoes_type)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.shoes_type)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.brand_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.brand_name)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
